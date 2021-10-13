@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display";
+  color: hsl(224, 23%, 55%);
+}
+p {
+  font-size: 16px;
+  padding: 20px 70px;
+}
+h2 {
+  font-weight: 900;
+  color: black;
+}
+strong {
+  font-weight: 700;
+  color: black;
+}
+.text {
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+  background-color: hsl(233, 73%, 96%);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+.ilustration {
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 20px;
+}
+.inline {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.note {
+  justify-self: center;
+  align-self: center;
+}
+.sec-div {
+  display: flex;
+}
+.button {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  padding: 10px 70px;
+  border-radius: 15px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.button:hover {
+  color: white;
+  background-color: hsl(228, 45%, 44%);
+  border: none;
+  padding: 10px 70px;
+  border-radius: 15px;
+  margin-top: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cancel {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.card {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.cancel a:link,
+.cancel a:visited {
+  text-decoration: none;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+.cancel a:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.change a:link,
+.change a:visited {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+.change a:hover {
+  font-weight: 700;
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+}
